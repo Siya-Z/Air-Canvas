@@ -5,9 +5,11 @@ Air Canvas is a computer vision-based virtual drawing application that enables u
 1. Real-time hand tracking
 2. Draw using index finger
 3. Gesture-based color selection
-4. Clear canvas option
-5. Save drawing as image
-6. Smooth and interactive UI
+4. Eraser functionality
+5. Adjustable Brush Size
+6. Clear canvas option
+7. Save drawing as image
+8. Smooth and interactive UI
 
 -Technologies Used
 1. Python
@@ -26,7 +28,7 @@ AirCanvas/
 
 Installation
 1. Clone Repository
-git clone https://github.com/your-username/Air-Canvas-Computer-Vision.git
+git clone https://github.com/Siya-z/Air-Canvas-Computer-Vision.git
 cd Air-Canvas-Computer-Vision
 2. Install Dependencies
 py -3.10 -m pip install opencv-python mediapipe numpy
@@ -36,29 +38,27 @@ py -3.10 air_canvas_gui.py
 
 -Controls
 
-| Gesture      | Action       |
-| ------------ | ------------ |
-| Index finger | Draw         |
-| Two fingers  | Select mode  |
-| Top bar      | Choose color |
-| CLEAR button | Clear canvas |
-| SAVE button  | Save drawing |
+| Gesture           | Action       |
+| ----------------  | ------------ |
+| Index finger      | Draw         |
+| Two fingers       | Select mode  |
+|Increase Brush size| Thumb        |
+|Decrease Brush size| Pinky Finger |
+|Black Color        | Eraser       |
+| Top bar           | Choose color |
+| CLEAR button      | Clear canvas |
+| SAVE button       | Save drawing |
 
 - Output
 <img width="956" height="759" alt="Screenshot 2026-03-31 223007" src="https://github.com/user-attachments/assets/e9c62ede-6542-49e8-91e4-62989d81d1dd" />
 
 -How It Works
-
-1. MediaPipe detects hand landmarks
-2. Index finger tip is tracked
-3. Drawing is done on a virtual canvas
-4. Canvas is merged with webcam feed
+MediaPipe detects hand landmarks from the webcam feed. The position of the index finger is tracked and used as a pointer. Drawing is performed on a virtual canvas, which is then combined with the video feed to create the final output.
 
 - Future Improvements
-
-1. Undo feature
-2. Brush size control
-3. Multi-hand support
-4. Advanced GUI
+Undo/Redo functionality
+Multi-hand support
+Advanced gesture recognition
+Improved graphical interface
 
 -By Siya
