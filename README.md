@@ -28,7 +28,7 @@ AirCanvas/
 
 Installation
 1. Clone Repository
-git clone https://github.com/Siya-Z/Air-Canvas-Computer-Vision.git
+git clone https://github.com/Siya-Z/Air-Canvas.git
 cd Air-Canvas-Computer-Vision
 2. Install Dependencies
 py -3.10 -m pip install opencv-python mediapipe numpy
