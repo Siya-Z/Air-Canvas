@@ -46,7 +46,6 @@ py -3.10 air_canvas_gui.py
 
 - Output
 <img width="956" height="759" alt="Screenshot 2026-03-31 223007" src="https://github.com/user-attachments/assets/e9c62ede-6542-49e8-91e4-62989d81d1dd" />
-<img width="956" height="759" alt="image" src="https://github.com/user-attachments/assets/140c0fcf-0f5c-4a93-bbed-8a463f98c28b" />
 
 -How It Works
 
